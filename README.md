@@ -13,7 +13,10 @@ These are the boards tested:
 
 * a [Particle relay shield](https://store.particle.io/products/relay-shield) with a Photon or Argon
 
+<img src="https://github.com/gusgonnet/myRelays/blob/master/images/featherRelayArgon.jpg" height="200" />
 <img src="https://github.com/gusgonnet/myRelays/blob/master/images/IMG_20181028_151254.jpg" height="200" />
+<img src="https://github.com/gusgonnet/myRelays/blob/master/images/ncdRelaysBoard.png" height="200" />
+<img src="https://github.com/gusgonnet/myRelays/blob/master/images/particleRelayShield.jpg" height="200" />
 
 ## Boards supported
 
