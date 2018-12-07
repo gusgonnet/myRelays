@@ -1,5 +1,9 @@
 # myRelays project
-Control your relays from everywhere
+Control your relays from everywhere with your Android phone
+
+<img src="https://github.com/gusgonnet/myRelays/blob/master/images/ezgif.com-gif-maker.gif"/>
+
+
 
 ## Boards tested
 
