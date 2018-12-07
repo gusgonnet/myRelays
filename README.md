@@ -14,7 +14,7 @@ These are the boards tested:
 * a [Particle relay shield](https://store.particle.io/products/relay-shield) with a Photon or Argon
 
 
-<table style="width:100%">
+<table border="0" style="width:100%">
   <tr>
     <th><img src="https://github.com/gusgonnet/myRelays/blob/master/images/featherRelayArgon.jpg" height="200" /></th>
     <th><img src="https://github.com/gusgonnet/myRelays/blob/master/images/IMG_20181028_151254.jpg" height="200" /></th> 
