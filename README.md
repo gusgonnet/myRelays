@@ -1,7 +1,7 @@
 # myRelays project
 Control your relays from everywhere with your Android phone
 
-<img src="https://github.com/gusgonnet/myRelays/blob/master/images/ezgif.com-gif-maker.gif"/>
+<img src="https://github.com/gusgonnet/myRelays/blob/master/images/ezgif.com-gif-maker.gif" height="500" />
 
 
 
