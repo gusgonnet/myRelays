@@ -9,7 +9,7 @@ These are the boards tested:
 
 * a [simple relay](https://wiki.wemos.cc/products:d1_mini_shields:relay_shield) connected to a [Particle Photon](https://store.particle.io/products/photon)
 
-* a [4 relays NCD board](https://store.ncd.io/product/4-channel-general-purpose-spdt-relay-shield-4-gpio-with-iot-interface/)
+* a [4 relays NCD board](https://store.ncd.io/product/4-channel-general-purpose-spdt-relay-shield-4-gpio-with-iot-interface/) with a Particle Photon
 
 * a [Particle relay shield](https://store.particle.io/products/relay-shield) with a Photon or Argon
 
@@ -37,6 +37,12 @@ These are the boards tested:
 
 * NCD boards with 1 or [up to 24 relays!](https://store.ncd.io/product/24-channel-general-purpose-spdt-relay-shield-8-gpio-with-iot-interface/)
 
+<table border="0" style="width:100%">
+  <tr>
+    <th><img src="https://github.com/gusgonnet/myRelays/blob/master/images/MCP23008-PEIO7R1G5LE_2-380x253.png" height="200" /></th>
+    <th><img src="https://github.com/gusgonnet/myRelays/blob/master/images/MCP23017_PEIO8R24G5LE_10A_A_2-380x253.png" height="200" /></th> 
+  </tr>
+</table>
 
 
 
