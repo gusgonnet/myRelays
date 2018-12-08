@@ -1,5 +1,5 @@
 # myRelays project
-Control your relays from anywhere in the world with your Android phone
+Control relays from anywhere in the world with your Android phone
 
 <img src="https://github.com/gusgonnet/myRelays/blob/master/images/ezgif.com-gif-maker.gif" height="500" />
 
@@ -53,7 +53,7 @@ These are the boards tested:
 
 ## Instructions
 
-[Full project instructions are here!]()
+[Full project instructions are here!](https://www.hackster.io/gusgonnet/myrelays-5b3065)
 
-HACKSTER LINK GOES THERE
+
 
