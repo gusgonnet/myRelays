@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-navbar transparent class="navbarStyle">
+    <ion-row class="navbarStyle">
+
+      <ion-col col-8>
+        <button ion-button color="gris" menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+      </ion-col>
+
+      <ion-col>
+        <lottie-animation-view [options]="logoLottieConfig" [height]="50" (animCreated)="logoHandleAnimation($event)">
+        </lottie-animation-view>
+      </ion-col>
+
+    </ion-row>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="colorStyle">
+
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content pullingText="Pull to refresh" refreshingSpinner="dots" refreshingText="Refreshing...">
+    </ion-refresher-content>
+  </ion-refresher>
+
+  <ion-list no-lines style="border: none;">
+
+    <ion-item-sliding class="fondo" #slidingItems *ngFor="let relay of this.relaysService.relays.relay; let i=index">
+
+      <ion-item no-lines style="border: none;" class="normalBg">
+        <!-- <ion-item no-lines style="border: none;" class="illuminatedBg"> -->
+        <!-- <ion-item no-lines style="border: none;" class="{{this.relaysService.getStyleForBackground(i)}}"> -->
+        <ion-row>
+          <ion-col>
+            <h2 class="{{this.relaysService.getStyleForRelayText(i)}}">
+              Relay {{i+1}}</h2>
+            <p class="{{this.relaysService.getStyleForRelayParagraph(i)}}">
+              {{this.relaysService.getRelayState(i)}}
+            </p>
+          </ion-col>
+          <ion-col col-2 class="bulbClass">
+            <lottie-animation-view [options]="bulbLottieConfig" [height]="60" (animCreated)="this.relaysService.relayHandleAnimation($event, i)">
+            </lottie-animation-view>
+          </ion-col>
+
+          <ion-col col-1>
+          </ion-col>
+
+        </ion-row>
+
+      </ion-item>
+
+      <ion-item-options side="right">
+        <button ion-button class="buttonON" [disabled]="!this.relaysService.getRelayButtonEnabledOn(i)" (click)="updateRelay(i,'on')">ON</button>
+        <button ion-button class="buttonOFF" [disabled]="!this.relaysService.getRelayButtonEnabledOff(i)" (click)="updateRelay(i,'off')">OFF</button>
+        <button ion-button class="buttonPulse" [disabled]="!this.relaysService.getRelayButtonEnabledPulse(i)" (click)="pulseRelay(i)">PULSE</button>
+      </ion-item-options>
+
+    </ion-item-sliding>
+
+  </ion-list>

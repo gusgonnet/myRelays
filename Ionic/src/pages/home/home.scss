@@ -1,0 +1,79 @@
+page-home {
+
+.navbarStyle{
+    background-color: rgb(19, 18, 18);
+}
+    
+.bulbClass{
+    margin-top: 3%;
+}
+
+.titlesStyleOn{
+    color: rgb(19, 18, 18);
+    text-shadow: -1px 0 rgb(39, 137, 155), 0 1px rgb(39, 137, 155), 1px 0 rgb(39, 137, 155), 0 -1px rgb(39, 137, 155);
+    font-style: bolder;
+    font-family: Impact, sans-serif;
+    font-size: 2.5em;
+    border-bottom-color: transparent;
+    margin-top: 5%;
+    }
+    
+.titlesStyleOff{
+    color: rgb(19, 18, 18);
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    font-style: bolder;
+    font-family: Impact, sans-serif;
+    font-size: 2.5em;
+    border-bottom-color: transparent;
+    margin-top: 5%;
+    }
+
+.colorStyle{
+    background: linear-gradient(to bottom, rgba(14, 13, 13, 0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #222; 
+    background-blend-mode: multiply,multiply;
+    // margin-top: 4%;
+}
+
+.buttonON{
+    background-color:#dae113;
+    width: 8rem;
+
+}
+.buttonOFF{
+    background-color: #2f97a3;
+    width: 8rem;
+}
+.buttonPulse{
+    background-color: orangered;
+    // opacity: .5;
+    width: 8rem;
+}
+.buttonMore{
+    background-color: rgb(44, 46, 44);
+    width: 8rem;
+
+}
+.textColorOn{
+    color:#56e7f7;
+}
+
+.textColorOff{
+    color:grey;
+}
+
+.fondo{
+    background-color: rgba(14, 13, 13, 0.15)
+}
+
+.illuminatedBg{
+    margin-top: 0%;
+    background-image: linear-gradient(to left, #434343 0%, black 100%);
+}
+
+.normalBg{
+    margin-top: 0%;
+    background: linear-gradient(to bottom, rgba(14, 13, 13, 0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #222; 
+    background-blend-mode: multiply,multiply;
+}
+
+}

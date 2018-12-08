@@ -1,0 +1,46 @@
+.ios, .md {
+  page-intro {
+
+    .colorSize1 {
+        // color: rgb(194, 207, 209);
+        // font-style: italic;
+        // font-family: 'Trebuchet MS';
+        // margin-left: 5%;
+        text-decoration: none;
+    }
+
+    .colorSize2 {
+        text-decoration: none;
+        opacity: 0.4;
+    }
+
+    .slideClass {
+        padding-top: 0%;
+    }
+
+    .nopad {
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .buttonClass {
+        text-transform: none;
+        font-size: 1.2rem;
+        color: rgb(223, 94, 19);
+    }
+
+    .gradientColor{
+        // background-color: #1a5b63;
+      }
+      
+      ion-slide {
+        // background-color: #1a5b63;
+    }
+ 
+    ion-slide img {
+      height: 65vh !important;
+      width: auto !important;
+    }
+ 
+  }
+}

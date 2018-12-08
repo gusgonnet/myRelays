@@ -1,0 +1,58 @@
+<ion-content class="gradientColor">
+
+  <ion-slides pager="true">
+
+    <ion-slide class="slideClass">
+      <p class="colorSize1">Step 1:</p>
+      <p class="colorSize2">
+        Build your board
+      </p>
+      <img src="assets/imgs/particleRelay.jpg" />
+      <ion-row class="nopad">
+        <ion-col class="nopad">
+          <button class="buttonClass" ion-button clear color="light" (click)="goToInstructions()">Instructions here</button>
+        </ion-col>
+      </ion-row>
+
+    </ion-slide>
+
+    <ion-slide>
+      <p class="colorSize1">Step 2:</p>
+      <p class="colorSize2">Configure your Particle Cloud credentials</p>
+      <img src="assets/imgs/myRelaysSettings.png" />
+      <ion-row class="nopad">
+          <ion-col class="nopad">
+            <button class="buttonClass" ion-button clear color="light"></button>
+          </ion-col>
+        </ion-row>
+    </ion-slide>
+
+    <ion-slide>
+      <p class="colorSize1">Step 3:</p>
+      <p class="colorSize2">Swipe left to control your relays</p>
+      <img src="assets/imgs/myRelaysSlidein.png" />
+      <ion-row class="nopad">
+          <ion-col class="nopad">
+            <button class="buttonClass" ion-button clear color="light"></button>
+          </ion-col>
+        </ion-row>
+      </ion-slide>
+
+    <ion-slide>
+      <ion-row class="nopad">
+        <ion-col class="nopad">
+          <p class="colorSize1">Step 4:</p>
+          <p class="colorSize2">Have fun!</p>
+          <img src="assets/imgs/myRelaysOn.png" />
+        </ion-col>
+      </ion-row>
+      <ion-row class="nopad">
+        <ion-col class="nopad">
+          <button class="buttonClass" ion-button clear color="light" (click)="goToHome()">Start using the App</button>
+        </ion-col>
+      </ion-row>
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>

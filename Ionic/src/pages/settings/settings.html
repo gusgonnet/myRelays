@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title class="colorSize0">Settings</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="background-color" padding>
+
+  <ion-row>
+    <ion-col>
+      <ion-list no-lines style="border: none;" class="background-color">
+
+        <ion-item no-lines style="border: none;" class="background-color">
+          <ion-label class="size" floating>Particle Access Token</ion-label>
+          <ion-input type="text" [(ngModel)]="particleAccessToken" >
+          </ion-input>
+        </ion-item>
+
+        <ion-item class="background-color">
+          <ion-label class="size" floating>Particle Device ID</ion-label>
+          <ion-input type="text" [(ngModel)]="particleDeviceID">
+          </ion-input>
+        </ion-item>
+
+      </ion-list>
+    </ion-col>
+  </ion-row>
+
+</ion-content>
+
+
+<ion-footer>
+  <div class="footerClass">
+    <ion-toolbar transparent>
+
+      <button ion-button clear color="light" style="text-transform: none;" (click)="cancelClick()" icon-end>
+        Cancel
+        <ion-icon></ion-icon>
+      </button>
+
+      <button ion-button clear color="light" style="text-transform: none;" (click)="saveClick()" icon-end>
+        Done
+        <ion-icon name="ios-thumbs-up-outline"></ion-icon>
+      </button>
+
+    </ion-toolbar>
+  </div>
+</ion-footer>
